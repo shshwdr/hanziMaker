@@ -10,7 +10,17 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     private static bool m_ShuttingDown = false;
     private static object m_Lock = new object();
     private static T m_Instance;
-
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        //else
+        //{
+        //    m_Instance = this;
+        //}
+    }
     /// <summary>
     /// Access singleton instance through this propriety.
     /// </summary>
@@ -41,7 +51,7 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
                         singletonObject.name = typeof(T).ToString() + " (Singleton)";
 
                         // Make instance persistent.
-                        // DontDestroyOnLoad(singletonObject);
+                         DontDestroyOnLoad(singletonObject);
                     }
                 }
 

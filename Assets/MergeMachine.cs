@@ -6,11 +6,96 @@ public class MergeMachine : BaseMachine
 {
 
     public string mergeType;
-
+    public bool ignoreOrder = false;
     string outputStr;
     public override string outputString()
     {
         return outputStr;
+    }
+
+    public bool canCreateResult(List<string> currentInputs,bool shouldCreate, bool _ignoreOrder, char ignoreModify = '\0', string _mergeType = "")
+    {
+        bool foundOne = false;
+
+        string useMergeType = mergeType;
+        if (_mergeType != "")
+        {
+            useMergeType = _mergeType;
+        }
+
+        foreach (var row in RuleManager.Instance.ruleInfoByMachine[useMergeType])
+        {
+            bool canCreate = true;
+
+            List<string> ruleInputs = new List<string>();
+            foreach (string ruleInput in row.inputs)
+            {
+                if (ruleInput != "")
+                {
+                    ruleInputs.Add(ruleInput);
+                }
+            }
+
+            if (ruleInputs.Count != currentInputs.Count)
+            {
+
+                continue;
+            }
+
+            if (_ignoreOrder)
+            {
+
+                ruleInputs.Sort();
+                currentInputs.Sort();
+
+            }
+
+            {
+                for (int i = 0; i < row.inputs.Count; i++)
+                {
+                    if (ignoreModify!='\0') {
+                        if(!RuleManager.checkStringTheSame(ruleInputs[i], currentInputs[i], ignoreModify))
+                        {
+                            canCreate = false;
+                            break;
+                        }
+                    } else
+                    {
+
+                        if (i < ruleInputs.Count && ruleInputs[i] != currentInputs[i])
+                        {
+                            canCreate = false;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            if (canCreate)
+            {
+                if (shouldCreate)
+                {
+
+                    if (foundOne)
+                    {
+                        Debug.LogError("found multiple for " + gameObject.name);
+                    }
+                    foundOne = true;
+                    outputStr = row.name;
+                    var prefab = Resources.Load<GameObject>("letter");
+                    var go = Instantiate(prefab, generalMachine.output.transform.position, Quaternion.identity);
+                    go.GetComponent<Letter>().init(outputStr, generalMachine.output.attachedPut.transform.position);
+                }
+                else
+                {
+                    return true;
+                }
+
+                //todo - don't break for debug
+                //break;
+            }
+        }
+        return foundOne;
     }
 
     public override void work()
@@ -20,6 +105,7 @@ public class MergeMachine : BaseMachine
         if (!RuleManager.Instance.ruleInfoByMachine.ContainsKey(mergeType))
         {
             Debug.LogError("no merge machine existed " + mergeType);
+            
         }
 
         foreach (var input in generalMachine.inputs)
@@ -30,41 +116,67 @@ public class MergeMachine : BaseMachine
             }
         }
 
+        List<string> currentInputs = new List<string>();
+        foreach(var machineInput in generalMachine.inputs)
+        {
+            var str = machineInput.getString();
+            if(str != "")
+            {
+
+                currentInputs.Add(str);
+            }
+        }
+
         //improve - don't calculate it everytime
         if (generalMachine.output.attachedPut)
         {
-            bool foundOne = false;
-            foreach(var row in RuleManager.Instance.ruleInfoByMachine[mergeType])
+            bool foundOne = canCreateResult(currentInputs, true, ignoreOrder);
+
+            if (!foundOne)
             {
-                bool canCreate = true;
-                for(int i = 0; i < row.inputs.Count;i++)
-                {
-
-                    //todo, make sure no extra letter in either side
-                    if (i<generalMachine.inputs.Count &&  row.inputs[i] != generalMachine.inputs[i].getString())
-                    {
-                        canCreate = false;
-                        break;
-                    }
-                }
-                if (canCreate)
-                {
-                    if (foundOne)
-                    {
-                        Debug.LogError("found multiple for " + gameObject.name);
-                    }
-                    foundOne = true;
-                    outputStr = row.name;
-                    var prefab = Resources.Load<GameObject>("letter");
-                    var go = Instantiate(prefab, generalMachine.output.transform.position, Quaternion.identity);
-                    go.GetComponent<Letter>().init(row.displayName, generalMachine.output.attachedPut.transform.position);
-
-                    //todo - don't break for debug
-                    //break;
-                }
+                CreateErrorMessage(currentInputs);
             }
 
         }
+    }
+
+    void CreateErrorMessage(List<string> currentInputs)
+    {
+        generalMachine.errorPanel.SetActive(true);
+        string errorText = "合并失败！";
+        if (!ignoreOrder && canCreateResult(currentInputs, false, true))
+        {
+            errorText += "改变一下输入顺序试试。";
+        }
+        else if (canCreateResult(currentInputs, false, true, 's'))
+        {
+            errorText += "改变一下输入文字的大小试试";
+        }
+        else
+        {
+            bool canTryDifferentType = false;
+            foreach (var type in RuleManager.otherMergeTypes(mergeType))
+            {
+                canTryDifferentType = canCreateResult(currentInputs, false, true, '\0', type);
+                if (canTryDifferentType)
+                {
+                    break;
+                }
+            }
+            if (!canTryDifferentType)
+            {
+
+                if (canCreateResult(currentInputs, false, true, 'r'))
+                {
+                    errorText += "旋转一下输入文字试试";
+                }
+                else if (canCreateResult(currentInputs, false, true, 'm'))
+                {
+                    errorText += "翻转一下输入文字试试";
+                }
+            }
+        }
+        generalMachine.errorText.text = errorText;
     }
 
 

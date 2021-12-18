@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1416928434468600897, guid: 29b5e17d00345fe4fa67afd7f183824a, type: 3}
       propertyPath: m_Name
-      value: createMachine
+      value: createOneMachine
       objectReference: {fileID: 0}
     - target: {fileID: 1416928434468600959, guid: 29b5e17d00345fe4fa67afd7f183824a, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +54,10 @@ PrefabInstance:
     - target: {fileID: 1416928434468600959, guid: 29b5e17d00345fe4fa67afd7f183824a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5213909703935913913, guid: 29b5e17d00345fe4fa67afd7f183824a, type: 3}
+      propertyPath: createLetter
+      value: "\u4E00"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29b5e17d00345fe4fa67afd7f183824a, type: 3}

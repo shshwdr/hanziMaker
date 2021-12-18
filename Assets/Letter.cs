@@ -11,7 +11,27 @@ public class Letter : MonoBehaviour
     public float moveSpeed = 1f;
     public void init(string l,Vector3 position)
     {
-        letter = l;
+
+        var dict = RuleManager.stringToDictionary(l);
+        
+        letter = ""+dict['f'];
+        if (dict.ContainsKey('s'))
+        {
+            text.transform.localScale = Vector3.one * 0.5f;
+        }
+        if (dict.ContainsKey('r'))
+        {
+            Quaternion rotationAmount = Quaternion.Euler(0, 0, 90);
+            text. transform.rotation = transform.rotation * rotationAmount;
+        }
+
+        if (dict.ContainsKey('m'))
+        {
+            var scale = text.transform.localScale;
+            text.transform.localScale = new Vector3(-scale.x, scale.y, scale.z);
+        }
+
+
         text.text = letter;
         targetPosition = position;
     }

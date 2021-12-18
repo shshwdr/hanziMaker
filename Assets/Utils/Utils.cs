@@ -202,7 +202,19 @@ public class Utils : MonoBehaviour
         }
         return false;
     }
-
+    static public Vector3 getMousePosition
+    {
+        get
+        {
+            var mouseP = Input.mousePosition;
+            mouseP.z = 5.0f;
+            var worldMouseP = Camera.main.ScreenToWorldPoint(mouseP);
+            Debug.Log("mouse position " + mouseP + " " + worldMouseP);
+            //return Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            return worldMouseP;
+            //return 
+        }
+    }
     public static Vector2 chaseDir2d(Vector3 chaser, Vector3 chasee)
     {
         var diff = chasee - chaser;

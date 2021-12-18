@@ -34,6 +34,10 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
             Debug.LogError("should not ask input's string");
             return "";
         }
+        if (!attachedPut)
+        {
+            return "";
+        }
         return attachedPut.GetComponentInParent<BaseMachine>().outputString();
     }
 
@@ -45,20 +49,10 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("OnBeginDrag");
-        var mousePosition = getMousePosition;
+        var mousePosition = Utils.getMousePosition;
         DrawLine(mousePosition, mousePosition, Color.red);
     }
-    Vector3 getMousePosition { get
-        {
-            var mouseP = Input.mousePosition;
-            mouseP.z = 5.0f;
-            var worldMouseP = Camera.main.ScreenToWorldPoint(mouseP);
-            Debug.Log("mouse position " + mouseP + " "+ worldMouseP);
-            //return Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            return worldMouseP;
-            //return 
-        }
-    }
+    
     
     void DrawLine(Vector3 start, Vector3 end, Color color, float duration = 0.2f)
     {
@@ -101,7 +95,7 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     }
     public void OnDrag(PointerEventData eventData)
     {
-        var mousePosition = getMousePosition;
+        var mousePosition = Utils.getMousePosition;
 
         if (currentLineAttach)
         {

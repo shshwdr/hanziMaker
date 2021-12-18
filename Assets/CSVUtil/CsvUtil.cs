@@ -85,23 +85,23 @@ namespace Sinbad
         {
             var ret = new List<T>();
             string text = "";
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
             //var dbPath = path + filename;
 
             text = Resources.Load<TextAsset>("csv/" + filename).text;
-#else
-            var m_path = Application.dataPath+ "/csv/" + filename+".csv";
-         if (File.Exists(m_path))
-         {
-             byte[] m_bytes = File.ReadAllBytes(m_path);
+//#else
+//            var m_path = Application.dataPath+ "/csv/" + filename+".csv";
+//         if (File.Exists(m_path))
+//         {
+//             byte[] m_bytes = File.ReadAllBytes(m_path);
  
-             text = System.Text.Encoding.UTF8.GetString(m_bytes);
+//             text = System.Text.Encoding.UTF8.GetString(m_bytes);
  
-             Debug.Log(text);
-         }else{
-            Debug.LogError(m_path);
-         }
-#endif
+//             Debug.Log(text);
+//         }else{
+//            Debug.LogError(m_path);
+//         }
+//#endif
             var splitFile = new string[] { "\r\n", "\r", "\n" };
             var lines = text.Split(splitFile, StringSplitOptions.None);
             int lineId = 0;

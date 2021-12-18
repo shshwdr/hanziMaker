@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63166bf8e7222724bb541446f650ac12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  generalMachine: {fileID: 0}
+  mergeType: 
+  ignoreOrder: 0
 --- !u!1001 &629618242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78,7 +81,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 387590454193036740, guid: 4cd986a68a21b8e42bf9ed3c789aa27e, type: 3}
       propertyPath: m_Name
-      value: mergeVMachine 1
+      value: mergeMachine
       objectReference: {fileID: 0}
     - target: {fileID: 387590454193036794, guid: 4cd986a68a21b8e42bf9ed3c789aa27e, type: 3}
       propertyPath: m_RootOrder
@@ -127,6 +130,10 @@ PrefabInstance:
     - target: {fileID: 973183539646745395, guid: 4cd986a68a21b8e42bf9ed3c789aa27e, type: 3}
       propertyPath: m_Text
       value: "\u4EA7\u4E00\u673A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561512604166483107, guid: 4cd986a68a21b8e42bf9ed3c789aa27e, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cd986a68a21b8e42bf9ed3c789aa27e, type: 3}
