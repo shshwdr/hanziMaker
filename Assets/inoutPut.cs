@@ -13,13 +13,20 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public bool isInput;
 
-    public float produceTime = 0.3f;
-    float currentProduceTime = 0;
 
 
     public Material lineMaterial;
     public float collideRadius = 0.2f;
     public SpriteRenderer renderer;
+
+    public inoutPut attachedPut
+    {
+        get
+        {
+            return currentAttach;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -72,6 +79,7 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         {
             attach(currentLineAttach);
             currentLineAttach.attach(this);
+            currentLineAttach.releaseTryAttach();
         }
         else
         {
@@ -139,19 +147,4 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     }
 
 
-    public void work()
-    {
-       // Debug.Log()
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        currentProduceTime += Time.deltaTime;
-        if (currentProduceTime > produceTime)
-        {
-            currentProduceTime = 0;
-            work();
-        }
-    }
 }
