@@ -1,6 +1,6 @@
 ﻿name,displayName,machine,input0,input1,input2,input3
-二,二,mergeV,短一,一,,
-人,人,mergeH,丿,短捺,,
+二,二,mergeV,一,一,,
+人,人,mergeH,丿,sm丿,,
 捺,㇏,mirrowH,丿,,,
 夫,夫,mergeC,二,人,,
 八,八,mergeH,丿,捺,,
@@ -49,3 +49,5 @@
 双人旁,,,,,,
 火,,,,,,
 宝盖头,宀,,,,,
+土,,mergeV,十,一,,
+土,,mergeC,二,r一,,

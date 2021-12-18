@@ -86,7 +86,7 @@ namespace Sinbad
             var ret = new List<T>();
             string text = "";
 #if UNITY_EDITOR
-            var dbPath = path + filename;
+            //var dbPath = path + filename;
 
             text = Resources.Load<TextAsset>("csv/" + filename).text;
 #else

@@ -5,7 +5,6 @@ using UnityEngine;
 public class CreateMachine : BaseMachine
 {
     public string createLetter;
-    GeneralMachine generalMachine;
     public override void work()
     {
         base.work();
@@ -19,10 +18,10 @@ public class CreateMachine : BaseMachine
         }
 
     }
-    // Start is called before the first frame update
-    void Start()
+
+    public override string outputString()
     {
-        generalMachine = GetComponent<GeneralMachine>();
+        return createLetter;
     }
 
     // Update is called once per frame

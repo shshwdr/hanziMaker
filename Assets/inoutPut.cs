@@ -27,6 +27,16 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         }
     }
 
+    public string getString()
+    {
+        if (!isInput)
+        {
+            Debug.LogError("should not ask input's string");
+            return "";
+        }
+        return attachedPut.GetComponentInParent<BaseMachine>().outputString();
+    }
+
     // Start is called before the first frame update
     void Start()
     {

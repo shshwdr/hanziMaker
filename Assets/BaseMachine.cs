@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class BaseMachine : MonoBehaviour
 {
+    public GeneralMachine generalMachine;
     public virtual void work()
     {
 
     }
-    // Start is called before the first frame update
-    void Start()
+    public virtual string outputString()
     {
-        
+        Debug.LogError("no function implemented for outputString for " + gameObject.name);
+        return "";
+    }
+    // Start is called before the first frame update
+    void Awake()
+    {
+        generalMachine = GetComponent<GeneralMachine>();
+
     }
 
     // Update is called once per frame

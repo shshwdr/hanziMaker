@@ -2198,3 +2198,2002 @@ System memory in use after: 184.7 MB.
 Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5014.
 Total: 3.145800 ms (FindLiveObjects: 0.571800 ms CreateObjectMapping: 0.266100 ms MarkObjects: 2.178100 ms  DeleteObjects: 0.127900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 10494.294118 seconds.
+  path: Assets/Doozy/Examples/Fonts/Oswald/Oswald-Bold.ttf
+  artifactKey: Guid(b450db8bb1091aa41b7482426c679f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Oswald/Oswald-Bold.ttf using Guid(b450db8bb1091aa41b7482426c679f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e143b36166f43cd51a687366b10c78') in 0.558625 seconds
+  Import took 0.871103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Doozy/Examples/Fonts/Oswald/Oswald-Medium.ttf
+  artifactKey: Guid(5b4347184ee57cf4ca06d6cd253ad9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Oswald/Oswald-Medium.ttf using Guid(5b4347184ee57cf4ca06d6cd253ad9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e3c7d7d126742a3f9d3ac90ac33521') in 0.031198 seconds
+  Import took 0.042071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Doozy/Examples/Fonts/Oswald/Oswald-Light.ttf
+  artifactKey: Guid(940c0a77276005246b896f66f150c31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Oswald/Oswald-Light.ttf using Guid(940c0a77276005246b896f66f150c31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cbf017de83ee260c69f5e0b4f33fd2') in 0.056415 seconds
+  Import took 0.071086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Doozy/Examples/Fonts/Permanent_Marker/PermanentMarker-Regular.ttf
+  artifactKey: Guid(520d8d9ed03cd9b4aae9f8c9c3d7ef0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Permanent_Marker/PermanentMarker-Regular.ttf using Guid(520d8d9ed03cd9b4aae9f8c9c3d7ef0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd466fe3a1400cf3f8abd0557e8432986') in 0.033626 seconds
+  Import took 0.047359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Doozy/Examples/Fonts/Quicksand/Quicksand-Bold.ttf
+  artifactKey: Guid(b0988fb10dc12594c9b60fdb71f12817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Quicksand/Quicksand-Bold.ttf using Guid(b0988fb10dc12594c9b60fdb71f12817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079d25cea1aad496fdecd3a79303bdc8') in 0.046163 seconds
+  Import took 0.056490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Doozy/Examples/Fonts/Pacifico/Pacifico-Regular.ttf
+  artifactKey: Guid(2188f71ca6b187a47be40f0769639dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Pacifico/Pacifico-Regular.ttf using Guid(2188f71ca6b187a47be40f0769639dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06b498770e378d0a21208eaae49d3a8') in 0.056416 seconds
+  Import took 0.069434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Doozy/Examples/Fonts/Oswald/Oswald-Regular.ttf
+  artifactKey: Guid(ceee6971e0c902640af85b8f6d59a1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Oswald/Oswald-Regular.ttf using Guid(ceee6971e0c902640af85b8f6d59a1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b747eb0d6b0711c13629820185cf528') in 0.033866 seconds
+  Import took 0.047484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Doozy/Examples/Fonts/Unica_One/UnicaOne-Regular.ttf
+  artifactKey: Guid(0511794687d6e634fa9a400c4df6b01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Unica_One/UnicaOne-Regular.ttf using Guid(0511794687d6e634fa9a400c4df6b01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae736d34cb0f6c662da01028e88dbc3') in 0.034153 seconds
+  Import took 0.047191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Doozy/Examples/Fonts/Quicksand/Quicksand-Light.ttf
+  artifactKey: Guid(e37c349c6a37c9d43a651f4c74693cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Quicksand/Quicksand-Light.ttf using Guid(e37c349c6a37c9d43a651f4c74693cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddea4ba58d615e3398a21ab2a2aa3cd') in 0.043548 seconds
+  Import took 0.053540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Doozy/Editor/Fonts/Sansation-Regular.ttf
+  artifactKey: Guid(236f54b53f8bd3545984d90a2ee14c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Editor/Fonts/Sansation-Regular.ttf using Guid(236f54b53f8bd3545984d90a2ee14c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f24c8036de429090dab6d80b677073') in 0.039530 seconds
+  Import took 0.049590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Doozy/Examples/Fonts/Quicksand/Quicksand-Regular.ttf
+  artifactKey: Guid(1a184f0334d092e409e23b284a4e40f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Quicksand/Quicksand-Regular.ttf using Guid(1a184f0334d092e409e23b284a4e40f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd00b22e73f80de0d10bda2ba5d50205') in 0.030994 seconds
+  Import took 0.044143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Doozy/Examples/Fonts/Oswald/Oswald-ExtraLight.ttf
+  artifactKey: Guid(558fbe180a9506a4a8edf673126444bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Oswald/Oswald-ExtraLight.ttf using Guid(558fbe180a9506a4a8edf673126444bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc85eaee2309bca80f5561272b130ae7') in 0.038353 seconds
+  Import took 0.049299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Doozy/Examples/Fonts/Quicksand/Quicksand-Medium.ttf
+  artifactKey: Guid(b1261a18ab00e5847a581e3053951f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Quicksand/Quicksand-Medium.ttf using Guid(b1261a18ab00e5847a581e3053951f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206f6a1588be9564d912b5f313d40100') in 0.054836 seconds
+  Import took 0.066838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Doozy/Examples/Fonts/Secular_One/SecularOne-Regular.ttf
+  artifactKey: Guid(49e6f4aa3f4a8cc42846815efdf9a73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Secular_One/SecularOne-Regular.ttf using Guid(49e6f4aa3f4a8cc42846815efdf9a73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fd09f02d68a3b90a1cbc8fccf6ee88') in 0.033966 seconds
+  Import took 0.047787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Doozy/Editor/Fonts/Sansation-Light.ttf
+  artifactKey: Guid(a471ae701418ee5499106c60f74c1c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Editor/Fonts/Sansation-Light.ttf using Guid(a471ae701418ee5499106c60f74c1c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cb771dd886bb2d94cf8ed446e9d1f1') in 0.038117 seconds
+  Import took 0.051144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Doozy/Editor/Fonts/Sansation-Bold.ttf
+  artifactKey: Guid(43b701384840bcf44bfe745decdccd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Editor/Fonts/Sansation-Bold.ttf using Guid(43b701384840bcf44bfe745decdccd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38edc90b221156c920702376cef8bf8a') in 0.036591 seconds
+  Import took 0.051313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Doozy/Editor/Fonts/Sansation-Light.ttf
+  artifactKey: Guid(a471ae701418ee5499106c60f74c1c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Editor/Fonts/Sansation-Light.ttf using Guid(a471ae701418ee5499106c60f74c1c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cb771dd886bb2d94cf8ed446e9d1f1') in 0.019956 seconds
+  Import took 0.032125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Doozy/Examples/Fonts/Oswald/Oswald-SemiBold.ttf
+  artifactKey: Guid(73369b37c24225e4aaa35310a55196c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Fonts/Oswald/Oswald-SemiBold.ttf using Guid(73369b37c24225e4aaa35310a55196c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e451a662801e18d24c344111434d998') in 0.033215 seconds
+  Import took 0.045033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.703594 seconds.
+  path: Assets/font/msyh SDF.asset
+  artifactKey: Guid(fb93e2a3c88f27e4e98c9ec72efe81a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/font/msyh SDF.asset using Guid(fb93e2a3c88f27e4e98c9ec72efe81a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ec67900a7da3b9485f732ac1e4d972') in 0.630518 seconds
+  Import took 0.650241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002897 seconds.
+  path: Assets/font/msyh SDF.asset
+  artifactKey: Guid(fb93e2a3c88f27e4e98c9ec72efe81a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/font/msyh SDF.asset using Guid(fb93e2a3c88f27e4e98c9ec72efe81a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ec67900a7da3b9485f732ac1e4d972') in 0.502403 seconds
+  Import took 0.517778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.176480 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6826eaca5144803631ae9f3f07f4f1fc') in 0.080460 seconds
+  Import took 0.095062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Resources/machine/output.prefab
+  artifactKey: Guid(501a777de184cd54d88501dda64c2ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/output.prefab using Guid(501a777de184cd54d88501dda64c2ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e701770bd9484ef527336f387211f941') in 0.041475 seconds
+  Import took 0.055830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98467c2d9f6be0e67a20f31cf109172d') in 0.052111 seconds
+  Import took 0.071763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Resources/machine/inoutput.prefab
+  artifactKey: Guid(352ad14540ad3fc4b984b197d003594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/inoutput.prefab using Guid(352ad14540ad3fc4b984b197d003594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dff8a4d75761dfe8cb67f024aa58031') in 0.027860 seconds
+  Import took 0.044038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Resources/machine/input.prefab
+  artifactKey: Guid(1a629344870f1cb408c115176932cc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/input.prefab using Guid(1a629344870f1cb408c115176932cc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd9d3198ad3e557f890f9233e6be8d5') in 0.060392 seconds
+  Import took 0.076464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Resources/machine/inoutput.prefab
+  artifactKey: Guid(352ad14540ad3fc4b984b197d003594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/inoutput.prefab using Guid(352ad14540ad3fc4b984b197d003594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dff8a4d75761dfe8cb67f024aa58031') in 0.020654 seconds
+  Import took 0.034710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc28b58781f123f95e5c18cb7f2ffd5a') in 0.052494 seconds
+  Import took 0.073193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.176519 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd901f915d881124f9fff1337886915') in 0.409135 seconds
+  Import took 0.429413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd403d7aaaa34e94d3e64e11fa4c2b8be') in 0.381098 seconds
+  Import took 0.391979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7ad5e305e1c11f4ee0032c47bbb34f') in 0.686227 seconds
+  Import took 0.713743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.801638 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82cd30fdc621028d2ff81484a4752c7') in 0.525505 seconds
+  Import took 0.546300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8930f61da796e1c5c5a0444106724c6') in 0.621794 seconds
+  Import took 0.638371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adcefda51775faa4902492087e215be') in 0.521240 seconds
+  Import took 0.541455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.159309 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1f9acc5e3545f3587a845793cdfa7b') in 0.402522 seconds
+  Import took 0.420219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17c0910cb01082031b08b7db05dfbc4') in 0.532983 seconds
+  Import took 0.547279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9598e8498101366136487be2f16df97') in 0.587638 seconds
+  Import took 0.608195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.481030 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d9e6549eb751256e99aa35c0924d2c') in 0.589385 seconds
+  Import took 0.601385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438a3f5ba9ca0af62b4a2bde7a1d392b') in 0.421256 seconds
+  Import took 0.442085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3cba940a0a10be8b7a7baa029ded32') in 0.545994 seconds
+  Import took 0.576253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.825342 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40459c93135a1ba9caafefe077ae1f68') in 0.486654 seconds
+  Import took 0.503046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76a8818fab99be48e3eb5a61ff4b70b') in 0.395344 seconds
+  Import took 0.413754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a7edad83a6b523401735455d064c3b') in 0.647639 seconds
+  Import took 0.670201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.690193 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33b15eb9bd6175f90da9291c21aa2a4') in 0.435486 seconds
+  Import took 0.448432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d893c5a1d15cc2193cbed92d78c0c3a') in 0.460753 seconds
+  Import took 0.482012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f657df43f683312f0382e0bd24dafb0') in 0.478312 seconds
+  Import took 0.498310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.518374 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9646d32ca7de77dffba33b8dcd8df5') in 0.597911 seconds
+  Import took 0.613410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945df103f26a915e998f0c34b2c557f5') in 0.489595 seconds
+  Import took 0.509104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ffa33d114e2200432ded2eddcdb340') in 0.610544 seconds
+  Import took 0.625213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbce674153df0cc834d13610666cb9b') in 0.570508 seconds
+  Import took 0.587221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdbc17d37791325577792836093506e') in 0.622555 seconds
+  Import took 0.647747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda167b183e4f43fc4c3fb54746637a1') in 0.640885 seconds
+  Import took 0.660691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c10554368f8bd9a666054d17bd3304') in 0.629486 seconds
+  Import took 0.649045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036240 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d32b5cbde4b094074520fe508e57f2') in 0.681304 seconds
+  Import took 0.702736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd3f81651597ff84f402fd4898dd4ce') in 1.250978 seconds
+  Import took 1.402768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4935c291e3f908d1ab853e3e1c330e6') in 0.785474 seconds
+  Import took 0.813917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.882180 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6a04c817793e9af3c66906ebd48bd7') in 0.428555 seconds
+  Import took 0.441682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.503194 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96644c6c40c6451a557972930df0f76b') in 0.715676 seconds
+  Import took 0.740348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.893128 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec64471c0ca9015642cadd02052322b') in 0.457834 seconds
+  Import took 0.477801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.412879 seconds.
+  path: Assets/Resources/machine/createOneMachine.prefab
+  artifactKey: Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createOneMachine.prefab using Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2ef47b03fcd85861919b1a6b4df3ce') in 0.685495 seconds
+  Import took 0.709460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.085235 seconds.
+  path: Assets/Resources/machine/createOneMachine 1.prefab
+  artifactKey: Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createOneMachine 1.prefab using Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac25b13292830ffbdaff7546b910964') in 0.412830 seconds
+  Import took 0.425976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.371325 seconds.
+  path: Assets/Resources/machine/createpieMachine 1.prefab
+  artifactKey: Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createpieMachine 1.prefab using Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4fe73ed76010de6a5b706d029ad8e7') in 0.706688 seconds
+  Import took 0.725861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.787993 seconds.
+  path: Assets/Resources/machine/createOneMachine.prefab
+  artifactKey: Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createOneMachine.prefab using Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a639e72f4c85d60fae93cd89ef40f9e') in 0.612824 seconds
+  Import took 0.626579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Resources/machine/createpieMachine 1.prefab
+  artifactKey: Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createpieMachine 1.prefab using Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf831c564328eb956bdf9d07b648a522') in 0.618049 seconds
+  Import took 0.636312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.192951 seconds.
+  path: Assets/Resources/machine/createpieMachine 1.prefab
+  artifactKey: Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createpieMachine 1.prefab using Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998fabb0d83ee31f88f22ec157c63ba6') in 0.621655 seconds
+  Import took 0.639174 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.075 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4362 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.8 MB.
+System memory in use after: 185.0 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5023.
+Total: 3.481000 ms (FindLiveObjects: 0.512200 ms CreateObjectMapping: 0.253300 ms MarkObjects: 2.544800 ms  DeleteObjects: 0.169000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004772 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.750 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4362 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.8 MB.
+System memory in use after: 185.0 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5026.
+Total: 4.140200 ms (FindLiveObjects: 0.514200 ms CreateObjectMapping: 0.218800 ms MarkObjects: 3.161600 ms  DeleteObjects: 0.243400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3526.902444 seconds.
+  path: Assets/BaseMachine.cs
+  artifactKey: Guid(1c426b27227066745b6e13997e988765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseMachine.cs using Guid(1c426b27227066745b6e13997e988765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc03b4c4196e122d8b5e0d70189a8b0') in 0.024519 seconds
+  Import took 0.037205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006182 seconds.
+  path: Assets/BaseMachine.cs
+  artifactKey: Guid(1c426b27227066745b6e13997e988765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseMachine.cs using Guid(1c426b27227066745b6e13997e988765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc03b4c4196e122d8b5e0d70189a8b0') in 0.003890 seconds
+  Import took 0.017039 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.609 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.8 MB.
+System memory in use after: 185.1 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5030.
+Total: 3.149400 ms (FindLiveObjects: 0.377900 ms CreateObjectMapping: 0.178000 ms MarkObjects: 2.472600 ms  DeleteObjects: 0.119700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.728700 seconds.
+  path: Assets/CreateMachine.cs
+  artifactKey: Guid(805d12331ae44ce489ba26977ac3e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreateMachine.cs using Guid(805d12331ae44ce489ba26977ac3e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11797dc12c54806b74fce527c947f77d') in 0.016123 seconds
+  Import took 0.030650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011500 seconds.
+  path: Assets/CreateMachine.cs
+  artifactKey: Guid(805d12331ae44ce489ba26977ac3e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreateMachine.cs using Guid(805d12331ae44ce489ba26977ac3e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11797dc12c54806b74fce527c947f77d') in 0.004341 seconds
+  Import took 0.015113 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.620 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 185.1 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5034.
+Total: 3.749700 ms (FindLiveObjects: 0.518700 ms CreateObjectMapping: 0.333400 ms MarkObjects: 2.743000 ms  DeleteObjects: 0.153600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.511846 seconds.
+  path: Assets/WriteMachine.cs
+  artifactKey: Guid(17c2217138f515c459b9c97f60a2e121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WriteMachine.cs using Guid(17c2217138f515c459b9c97f60a2e121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e82ba976f4e99df046f6fbaf639f53d') in 0.016611 seconds
+  Import took 0.033031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009355 seconds.
+  path: Assets/WriteMachine.cs
+  artifactKey: Guid(17c2217138f515c459b9c97f60a2e121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WriteMachine.cs using Guid(17c2217138f515c459b9c97f60a2e121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e82ba976f4e99df046f6fbaf639f53d') in 0.003746 seconds
+  Import took 0.014936 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.060 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4365 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 185.1 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5038.
+Total: 20.246900 ms (FindLiveObjects: 0.690400 ms CreateObjectMapping: 0.325800 ms MarkObjects: 18.885400 ms  DeleteObjects: 0.343000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.989708 seconds.
+  path: Assets/Resources/letter.prefab
+  artifactKey: Guid(cc217f672a8ae044aa21a006c7a95dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/letter.prefab using Guid(cc217f672a8ae044aa21a006c7a95dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f558fba06c143862cd3102ed22af15') in 0.138116 seconds
+  Import took 0.150267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.636087 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745b3df9ca8555257e20bc1647516317') in 0.560262 seconds
+  Import took 0.570900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Resources/machine/createOneMachine.prefab
+  artifactKey: Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createOneMachine.prefab using Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6d286ead6b15dcd246064265f94c1c') in 0.388605 seconds
+  Import took 0.400923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Resources/machine/output.prefab
+  artifactKey: Guid(501a777de184cd54d88501dda64c2ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/output.prefab using Guid(501a777de184cd54d88501dda64c2ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db957f9a2b9f1528828d1af92aaa1fc') in 0.022746 seconds
+  Import took 0.036127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757e01051fdff89e1a34c879cedea07f') in 0.426986 seconds
+  Import took 0.438401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Resources/machine/inoutput.prefab
+  artifactKey: Guid(352ad14540ad3fc4b984b197d003594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/inoutput.prefab using Guid(352ad14540ad3fc4b984b197d003594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488407c4b41f9746545195f5125cd180') in 0.019520 seconds
+  Import took 0.027723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Resources/machine/input.prefab
+  artifactKey: Guid(1a629344870f1cb408c115176932cc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/input.prefab using Guid(1a629344870f1cb408c115176932cc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1140da6f40c4bb12bd9a04eff0425994') in 0.019582 seconds
+  Import took 0.029652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1fc842087b2dca876234733119a3ba') in 0.448656 seconds
+  Import took 0.463098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Resources/machine/createpieMachine 1.prefab
+  artifactKey: Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createpieMachine 1.prefab using Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b69f8cf5dbe79daa5321820e0a74269') in 0.469232 seconds
+  Import took 0.483853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.503240 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3644b321993743ef642e5c9a22072289') in 0.441653 seconds
+  Import took 0.455513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Resources/machine/createOneMachine.prefab
+  artifactKey: Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createOneMachine.prefab using Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768612d7ea15661defad2b9ccba01c8b') in 0.414878 seconds
+  Import took 0.432478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Resources/machine/createpieMachine 1.prefab
+  artifactKey: Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createpieMachine 1.prefab using Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedcf68743dbdea6239152e754058f1b') in 0.621126 seconds
+  Import took 0.636674 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.629 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4365 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 185.2 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5042.
+Total: 3.406900 ms (FindLiveObjects: 0.692300 ms CreateObjectMapping: 0.262100 ms MarkObjects: 2.297800 ms  DeleteObjects: 0.153300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.595 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4365 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 185.2 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5045.
+Total: 3.213900 ms (FindLiveObjects: 0.534200 ms CreateObjectMapping: 0.174300 ms MarkObjects: 2.361700 ms  DeleteObjects: 0.142400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.218 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.0 MB.
+System memory in use after: 185.2 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5049.
+Total: 4.478100 ms (FindLiveObjects: 0.715900 ms CreateObjectMapping: 0.390100 ms MarkObjects: 3.197500 ms  DeleteObjects: 0.172600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.760843 seconds.
+  path: Assets/Resources/letter.prefab
+  artifactKey: Guid(cc217f672a8ae044aa21a006c7a95dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/letter.prefab using Guid(cc217f672a8ae044aa21a006c7a95dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4505dcccef04d0a1d33a06a939e8c4e5') in 0.117935 seconds
+  Import took 0.138617 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.0 MB.
+System memory in use after: 185.2 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5053.
+Total: 3.737300 ms (FindLiveObjects: 0.756000 ms CreateObjectMapping: 0.301900 ms MarkObjects: 2.522900 ms  DeleteObjects: 0.155200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 574.953564 seconds.
+  path: Assets/Resources/letter.prefab
+  artifactKey: Guid(cc217f672a8ae044aa21a006c7a95dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/letter.prefab using Guid(cc217f672a8ae044aa21a006c7a95dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4aa1993dae2ebf51e821aed20c91ba') in 0.148079 seconds
+  Import took 0.162586 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004259 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.659 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.0 MB.
+System memory in use after: 185.2 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5057.
+Total: 3.277400 ms (FindLiveObjects: 0.616900 ms CreateObjectMapping: 0.206200 ms MarkObjects: 2.305300 ms  DeleteObjects: 0.147700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.960218 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cc7b7e78f34a3606495e9c46e599fa') in 0.510566 seconds
+  Import took 0.530416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Resources/machine/createOneMachine.prefab
+  artifactKey: Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createOneMachine.prefab using Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8b415ce8985d3908a99b194858727c') in 0.441441 seconds
+  Import took 0.454543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cc7b7e78f34a3606495e9c46e599fa') in 0.456003 seconds
+  Import took 0.468316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b0187a405908615cd03de2473b9ba7') in 0.401861 seconds
+  Import took 0.420808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da9923cb40c9f8213e430cf19e1e059') in 0.417413 seconds
+  Import took 0.435230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Resources/machine/createpieMachine 1.prefab
+  artifactKey: Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createpieMachine 1.prefab using Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5f55327a96278240e28a0ec62620d8') in 0.453166 seconds
+  Import took 0.465288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.277857 seconds.
+  path: Assets/Resources/machine/createPieMachine 1.prefab
+  artifactKey: Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createPieMachine 1.prefab using Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c13549716345b65f5540bb5a43e600') in 0.470202 seconds
+  Import took 0.483112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.933995 seconds.
+  path: Assets/Resources/machine/createPieMachine 1.prefab
+  artifactKey: Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createPieMachine 1.prefab using Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9588d3b07c2be7f9d45432f70bd7815d') in 0.438509 seconds
+  Import took 0.459608 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003188 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.628 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.0 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5061.
+Total: 3.788400 ms (FindLiveObjects: 0.521000 ms CreateObjectMapping: 0.240200 ms MarkObjects: 2.856900 ms  DeleteObjects: 0.169200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004243 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.0 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5064.
+Total: 3.540100 ms (FindLiveObjects: 0.511600 ms CreateObjectMapping: 0.251500 ms MarkObjects: 2.608600 ms  DeleteObjects: 0.166500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.637 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.1 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5067.
+Total: 3.495800 ms (FindLiveObjects: 0.700100 ms CreateObjectMapping: 0.247900 ms MarkObjects: 2.325700 ms  DeleteObjects: 0.220200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.837 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.1 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5070.
+Total: 4.135100 ms (FindLiveObjects: 0.435000 ms CreateObjectMapping: 0.319500 ms MarkObjects: 3.203900 ms  DeleteObjects: 0.175000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.949180 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368dc2084c593608f6161ab48226b7be') in 0.576723 seconds
+  Import took 0.589087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Resources/machine/createOneMachine.prefab
+  artifactKey: Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createOneMachine.prefab using Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8288623d84d44e199b2886a9e1bb3c') in 0.505410 seconds
+  Import took 0.523033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091967 seconds.
+  path: Assets/Resources/machine/createMachine.prefab
+  artifactKey: Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createMachine.prefab using Guid(29b5e17d00345fe4fa67afd7f183824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599cf5e237114f4a743ae797e3d331be') in 0.406688 seconds
+  Import took 0.428093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Resources/machine/createOneMachine.prefab
+  artifactKey: Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createOneMachine.prefab using Guid(dbb0da4195ba36a42a69979d35e6ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61afa272f7896fe4c92821339f6ca12f') in 0.476719 seconds
+  Import took 0.493426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Resources/machine/machine.prefab
+  artifactKey: Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/machine.prefab using Guid(4cd986a68a21b8e42bf9ed3c789aa27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aab7e0f1fe877b7b6f7b8ad51c00351') in 0.386831 seconds
+  Import took 0.400746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Resources/machine/outputMachine.prefab
+  artifactKey: Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/outputMachine.prefab using Guid(c2b0d24b22db3564489bf72036468a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e359a0821bfa09b0ffc18e84bf0dc77f') in 0.395763 seconds
+  Import took 0.411684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Resources/machine/createPieMachine 1.prefab
+  artifactKey: Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/machine/createPieMachine 1.prefab using Guid(936a345bd72b4ce409c304e1dc7e3f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046d1457edd21a7dd77a5db90b14e9b3') in 0.369702 seconds
+  Import took 0.383588 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.854 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.1 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5074.
+Total: 4.259600 ms (FindLiveObjects: 0.447300 ms CreateObjectMapping: 0.209300 ms MarkObjects: 3.402500 ms  DeleteObjects: 0.198900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.056 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.1 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5077.
+Total: 4.958600 ms (FindLiveObjects: 0.840800 ms CreateObjectMapping: 0.353200 ms MarkObjects: 3.541000 ms  DeleteObjects: 0.221000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.456520 seconds.
+  path: Assets/Resources/letter.prefab
+  artifactKey: Guid(cc217f672a8ae044aa21a006c7a95dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/letter.prefab using Guid(cc217f672a8ae044aa21a006c7a95dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9a2abe9c56a34cf871a7ca905bdbe0') in 0.188095 seconds
+  Import took 0.210439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.309295 seconds.
+  path: Assets/Resources/letter.prefab
+  artifactKey: Guid(cc217f672a8ae044aa21a006c7a95dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/letter.prefab using Guid(cc217f672a8ae044aa21a006c7a95dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa8c3bb368b33fbacab6102d8c1e326') in 0.132382 seconds
+  Import took 0.165567 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005102 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.915 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.1 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5081.
+Total: 3.820400 ms (FindLiveObjects: 0.526900 ms CreateObjectMapping: 0.212600 ms MarkObjects: 2.947700 ms  DeleteObjects: 0.131900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003193 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.607 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.1 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5084.
+Total: 2.868900 ms (FindLiveObjects: 0.403600 ms CreateObjectMapping: 0.151800 ms MarkObjects: 2.166000 ms  DeleteObjects: 0.146400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.173871 seconds.
+  path: Assets/Gizmos/DialogueDatabase Icon.png
+  artifactKey: Guid(8c00072895782fb4d918363c8ff501a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/DialogueDatabase Icon.png using Guid(8c00072895782fb4d918363c8ff501a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de06c018e0f70ad3e18d30c9d474d04f') in 0.076587 seconds
+  Import took 0.089625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Gizmos/TextTable Icon.png
+  artifactKey: Guid(f043073205c249748ae651e1518ced37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/TextTable Icon.png using Guid(f043073205c249748ae651e1518ced37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07029e332b824a2f9a71cedb98da8089') in 0.022696 seconds
+  Import took 0.033730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Gizmos/StringAsset Icon.png
+  artifactKey: Guid(4f2936fe28db54943a07b18c4366f96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/StringAsset Icon.png using Guid(4f2936fe28db54943a07b18c4366f96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c069c6cdcdd985b7262ca35810ba2402') in 0.022791 seconds
+  Import took 0.033073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.420196 seconds.
+  path: Assets/lineMaterial.mat
+  artifactKey: Guid(478a11cb47556914dafb3f3c70003f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lineMaterial.mat using Guid(478a11cb47556914dafb3f3c70003f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ea986887529574080de01757d84585') in 0.067590 seconds
+  Import took 0.081178 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004196 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\HanziMachine\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.993 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.2 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 5089.
+Total: 4.032600 ms (FindLiveObjects: 0.584300 ms CreateObjectMapping: 0.269700 ms MarkObjects: 3.008400 ms  DeleteObjects: 0.168800 ms)
+
