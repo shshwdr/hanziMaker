@@ -9,6 +9,7 @@ public class GeneralMachine : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     public float produceTime = 0.3f;
     float currentProduceTime = 0;
 
+    GameObject removeAreaObject;
     public GameObject errorPanel;
     public Text errorText;
 
@@ -67,11 +68,38 @@ public class GeneralMachine : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("OnEndDrag");
-       // currentDragging = null;
+        LayerMask mask = LayerMask.GetMask("removeArea");
+        Collider2D col = Physics2D.OverlapCircle(Utils.getMousePosition, 0.1f, mask);
+        if (col)
+        {
+            Destroy(gameObject);
+        }
+        if (removeAreaObject)
+        {
+
+            removeAreaObject.transform.GetChild(0).gameObject.SetActive(false);
+        }
+        // currentDragging = null;
     }
     public void OnDrag(PointerEventData eventData)
     {
         transform.position = Utils.getMousePosition;
+
+        LayerMask mask = LayerMask.GetMask("removeArea");
+        Collider2D col = Physics2D.OverlapCircle(Utils.getMousePosition, 0.1f, mask);
+        if (col)
+        {
+            removeAreaObject = col.gameObject;
+            col.transform.GetChild(0).gameObject.SetActive(true);
+        }
+        else
+        {
+            if (removeAreaObject)
+            {
+
+                removeAreaObject.transform.GetChild(0).gameObject.SetActive(false);
+            }
+        }
     }
     public void OnBeginDrag(PointerEventData eventData)
     {

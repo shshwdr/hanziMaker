@@ -8,7 +8,7 @@ public class PickMachine : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 {
     public string pickMachineString;
     GameObject preload;
-
+    GameObject removeAreaObject;
     GameObject currentDragging;
 
     // Start is called before the first frame update
@@ -35,11 +35,37 @@ public class PickMachine : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("OnEndDrag");
+        LayerMask mask = LayerMask.GetMask("removeArea");
+        Collider2D col = Physics2D.OverlapCircle(Utils.getMousePosition, 0.1f, mask);
+        if (col)
+        {
+            Destroy(currentDragging);
+        }
+        if (removeAreaObject)
+        {
+
+            removeAreaObject.transform.GetChild(0).gameObject.SetActive(false);
+        }
         currentDragging = null;
     }
     public void OnDrag(PointerEventData eventData)
     {
         currentDragging.transform.position = Utils.getMousePosition;
+        LayerMask mask = LayerMask.GetMask("removeArea");
+        Collider2D col = Physics2D.OverlapCircle(Utils.getMousePosition, 0.1f, mask);
+        if (col)
+        {
+            removeAreaObject = col.gameObject;
+            col.transform.GetChild(0).gameObject.SetActive(true);
+        }
+        else
+        {
+            if (removeAreaObject)
+            {
+
+                removeAreaObject.transform.GetChild(0).gameObject.SetActive(false);
+            }
+        }
     }
     public void OnBeginDrag(PointerEventData eventData)
     {

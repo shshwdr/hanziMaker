@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: modifyType
       value: 114
       objectReference: {fileID: 0}
+    - target: {fileID: 719869238344204504, guid: a7156d1fdd59787438dd7bc752a20273, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.41
+      objectReference: {fileID: 0}
     - target: {fileID: 1416928434468600897, guid: a7156d1fdd59787438dd7bc752a20273, type: 3}
       propertyPath: m_Name
       value: rotateMachine
@@ -62,6 +66,10 @@ PrefabInstance:
     - target: {fileID: 1965960688119737014, guid: a7156d1fdd59787438dd7bc752a20273, type: 3}
       propertyPath: m_Text
       value: "\u65CB\u8F6C\u673A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7144022314688670872, guid: a7156d1fdd59787438dd7bc752a20273, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7156d1fdd59787438dd7bc752a20273, type: 3}

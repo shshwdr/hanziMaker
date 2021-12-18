@@ -78,7 +78,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 0.4, y: 0.4}
+  m_Size: {x: 0.3, y: 0.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -99,7 +99,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
 --- !u!114 &8999287425517129598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,4 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44fc92658af99bb4e8394cdb0f20fbf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInput: 0
   lineMaterial: {fileID: 2100000, guid: 478a11cb47556914dafb3f3c70003f39, type: 2}
+  collideRadius: 0.2
+  renderer: {fileID: 0}
