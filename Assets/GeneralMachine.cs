@@ -15,10 +15,7 @@ public class GeneralMachine : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public inoutPut output;
     public List<inoutPut> inputs = new List<inoutPut>();
-    void getAllInputs()
-    {
 
-    }
 
     // Start is called before the first frame update
     void Start()
@@ -106,4 +103,5 @@ public class GeneralMachine : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         Debug.Log("OnBeginDrag");
        // currentDragging = Instantiate(preload, Utils.getMousePosition, Quaternion.identity);
     }
+
 }

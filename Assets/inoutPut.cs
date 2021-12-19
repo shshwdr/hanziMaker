@@ -6,10 +6,13 @@ using UnityEngine.EventSystems;
 public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 
 {
-    LineRenderer currentLine;
-    inoutPut currentLineAttach;
+    //List<LineRenderer> currentLines;
+    List<inoutPut> currentAttachss = new List<inoutPut>();
+    Dictionary<inoutPut, LineRenderer> currentLinesByAttach = new Dictionary<inoutPut, LineRenderer>();
 
-    inoutPut currentAttach;
+    LineRenderer currentDraggingLine;
+    inoutPut currentDraggingAttach;
+
 
     public bool isInput;
 
@@ -23,8 +26,26 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     {
         get
         {
-            return currentAttach;
+            if(currentAttachss.Count == 0)
+            {
+                return null;
+            }
+            return currentAttachss[0];
         }
+    }
+
+    public List<inoutPut> allAttaches { get { return currentAttachss; } }
+
+    public LineRenderer currentLine { get {
+            if (!isInput)
+            {
+                Debug.LogError("hmm should not use this function if is not input");
+            }
+            if (!currentLinesByAttach.ContainsKey(attachedPut))
+            {
+                Debug.LogError("attach not existed for line");
+            }
+            return currentLinesByAttach[attachedPut]; }
     }
 
     public string getString()
@@ -49,18 +70,36 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("OnBeginDrag");
-        var mousePosition = Utils.getMousePosition;
-        DrawLine(mousePosition, mousePosition, Color.red);
+
+        // if is input, remove current line and attach, reuse that line
+        // if is output, create new line
+
+        if (isInput)
+        {
+            currentDraggingLine = currentLine;
+            currentDraggingAttach = attachedPut;
+            attachedPut.releaseAttach(this);
+            releaseAttach(attachedPut);
+        }
+        else
+        {
+
+
+            var mousePosition = transform.position;
+            DrawLine(mousePosition, mousePosition, Color.red);
+        }
+
     }
     
     
     void DrawLine(Vector3 start, Vector3 end, Color color, float duration = 0.2f)
     {
         GameObject myLine = new GameObject();
+        myLine.transform.parent = transform;
         myLine.transform.position = start;
         myLine.AddComponent<LineRenderer>();
         LineRenderer lr = myLine.GetComponent<LineRenderer>();
-        currentLine = lr;
+        currentDraggingLine = lr;
         // lr.material = new Material(Shader.Find("Particles/Alpha Blended Premultiply"));
         lr.SetWidth(0.1f, 0.1f);
         lr.SetPosition(0, start);
@@ -79,54 +118,57 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     {
         Debug.Log("OnEndDrag");
 
-        if (currentLineAttach)
+        if (currentDraggingAttach)
         {
-            attach(currentLineAttach);
-            currentLineAttach.attach(this);
-            currentLineAttach.releaseTryAttach();
+            attach(currentDraggingAttach,currentDraggingLine);
+            currentDraggingAttach.attach(this, currentDraggingLine);
+            currentDraggingLine.SetPosition(1, currentDraggingAttach.transform.position);
         }
         else
         {
-            Destroy(currentLine.gameObject);
+            Destroy(currentDraggingLine.gameObject);
         }
-
-
-        currentLine = null;
+        if (currentDraggingAttach)
+        {
+            currentDraggingAttach.releaseTryAttach();
+        }
+        releaseTryAttach();
     }
     public void OnDrag(PointerEventData eventData)
     {
         var mousePosition = Utils.getMousePosition;
 
-        if (currentLineAttach)
+        if (currentDraggingAttach)
         {
-            if((currentLineAttach.transform.position - mousePosition).magnitude >= collideRadius)
+            if((currentDraggingAttach.transform.position - mousePosition).magnitude >= collideRadius)
             {
-                currentLineAttach.releaseTryAttach();
-                currentLineAttach = null;
+                currentDraggingAttach.releaseTryAttach();
+                releaseTryAttach();
             }
         }
 
         foreach( var item in Physics2D.OverlapCircleAll(mousePosition, collideRadius))
         {
             var newInOut = item.GetComponent<inoutPut>();
-            if (newInOut && newInOut!=this)
+            //todo find the closest inoutput to attach
+            if (newInOut && newInOut!=this && newInOut.isInput!=isInput)
             {
-                if(currentLineAttach && newInOut == currentLineAttach)
-                {
-                    currentLineAttach.releaseTryAttach();
-                }
-                else
-                {
+                //if(currentDraggingAttach && newInOut == currentLineAttach)
+                //{
+                //    currentLineAttach.releaseTryAttach();
+                //}
+                //else
+                //{
 
-                }
+                //}
 
                 newInOut.selectToTryAttach();
-                currentLineAttach = newInOut;
+                currentDraggingAttach = newInOut;
                 break;
             }
         }
 
-        currentLine.SetPosition(1, mousePosition);
+        currentDraggingLine.SetPosition(1, mousePosition);
     }
 
     public void selectToTryAttach()
@@ -137,18 +179,57 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public void releaseTryAttach()
     {
 
+        currentDraggingAttach = null;
         renderer.transform.localScale = Vector3.one;
     }
 
-    public void attach(inoutPut inout)
+    public void attach(inoutPut inout, LineRenderer line)
     {
-        currentAttach = inout;
+        if (isInput)
+        {
+            if(currentLinesByAttach.Count!=0 || currentAttachss.Count != 0)
+            {
+                Debug.LogError("input can only have one attache");
+            }
+        }
+
+        if (currentAttachss.Count != currentLinesByAttach.Count)
+        {
+
+            Debug.LogError("attach and line not the same");
+        }
+
+        currentLinesByAttach[inout] = line;
+        currentAttachss.Add  ( inout);
     }
 
-    public void releaseAttach()
+    public void releaseAttach(inoutPut inout)
     {
-        currentAttach = null;
+        currentLinesByAttach.Remove(inout);
+        currentAttachss.Remove(inout);
+    }
+
+    public void releaseAllAttach()
+    {
+        currentLinesByAttach.Clear();
+        currentAttachss.Clear();
     }
 
 
+    private void OnDestroy()
+    {
+        foreach (var attach in currentAttachss)
+        {
+            if (allAttaches.Count > 1)
+            {
+
+                attach.releaseAllAttach();
+            }
+            else
+            {
+
+                attach.releaseAttach(attachedPut);
+            }
+        }
+    }
 }

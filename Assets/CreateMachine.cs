@@ -5,17 +5,16 @@ using UnityEngine;
 public class CreateMachine : BaseMachine
 {
     public string createLetter;
+    protected override void Awake()
+    {
+        base.Awake();
+        outputStr = createLetter;
+    }
     public override void work()
     {
         base.work();
 
-        if (generalMachine.output.attachedPut)
-        {
-
-            var prefab = Resources.Load<GameObject>("letter");
-            var go = Instantiate(prefab, generalMachine.output.transform.position, Quaternion.identity);
-            go.GetComponent<Letter>().init(createLetter, generalMachine.output.attachedPut.transform.position);
-        }
+            createLetters();
 
     }
 

@@ -7,13 +7,13 @@ public class MergeMachine : BaseMachine
 
     public string mergeType;
     public bool ignoreOrder = false;
-    string outputStr;
     public override string outputString()
     {
         return outputStr;
     }
 
-    public bool canCreateResult(List<string> currentInputs,bool shouldCreate, bool _ignoreOrder, char ignoreModify = '\0', string _mergeType = "")
+
+    public bool canCreateResult(List<string> currentInputs, bool shouldCreate, bool _ignoreOrder, char ignoreModify = '\0', string _mergeType = "")
     {
         bool foundOne = false;
 
@@ -53,13 +53,15 @@ public class MergeMachine : BaseMachine
             {
                 for (int i = 0; i < row.inputs.Count; i++)
                 {
-                    if (ignoreModify!='\0') {
-                        if(!RuleManager.checkStringTheSame(ruleInputs[i], currentInputs[i], ignoreModify))
+                    if (ignoreModify != '\0')
+                    {
+                        if (!RuleManager.checkStringTheSame(ruleInputs[i], currentInputs[i], ignoreModify))
                         {
                             canCreate = false;
                             break;
                         }
-                    } else
+                    }
+                    else
                     {
 
                         if (i < ruleInputs.Count && ruleInputs[i] != currentInputs[i])
@@ -82,9 +84,7 @@ public class MergeMachine : BaseMachine
                     }
                     foundOne = true;
                     outputStr = row.name;
-                    var prefab = Resources.Load<GameObject>("letter");
-                    var go = Instantiate(prefab, generalMachine.output.transform.position, Quaternion.identity);
-                    go.GetComponent<Letter>().init(outputStr, generalMachine.output.attachedPut.transform.position);
+                    createLetters();
                 }
                 else
                 {
@@ -105,7 +105,7 @@ public class MergeMachine : BaseMachine
         if (!RuleManager.Instance.ruleInfoByMachine.ContainsKey(mergeType))
         {
             Debug.LogError("no merge machine existed " + mergeType);
-            
+
         }
 
         foreach (var input in generalMachine.inputs)
@@ -117,10 +117,10 @@ public class MergeMachine : BaseMachine
         }
 
         List<string> currentInputs = new List<string>();
-        foreach(var machineInput in generalMachine.inputs)
+        foreach (var machineInput in generalMachine.inputs)
         {
             var str = machineInput.getString();
-            if(str != "")
+            if (str != "")
             {
 
                 currentInputs.Add(str);
@@ -128,7 +128,7 @@ public class MergeMachine : BaseMachine
         }
 
         //improve - don't calculate it everytime
-        if (generalMachine.output.attachedPut)
+        if (generalMachine.output.allAttaches.Count>0)
         {
             bool foundOne = canCreateResult(currentInputs, true, ignoreOrder);
 
@@ -179,10 +179,4 @@ public class MergeMachine : BaseMachine
         generalMachine.errorText.text = errorText;
     }
 
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
