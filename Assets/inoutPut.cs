@@ -8,17 +8,14 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 {
     //List<LineRenderer> currentLines;
     List<inoutPut> currentAttachss = new List<inoutPut>();
-    Dictionary<inoutPut, LineRenderer> currentLinesByAttach = new Dictionary<inoutPut, LineRenderer>();
+    Dictionary<inoutPut, MachineLine> currentLinesByAttach = new Dictionary<inoutPut, MachineLine>();
 
-    LineRenderer currentDraggingLine;
-    inoutPut currentDraggingAttach;
-
+    MachineLine currentDraggingLine;
 
     public bool isInput;
 
+    public GeneralMachine machine;
 
-
-    public Material lineMaterial;
     public float collideRadius = 0.2f;
     public SpriteRenderer renderer;
 
@@ -36,7 +33,7 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public List<inoutPut> allAttaches { get { return currentAttachss; } }
 
-    public LineRenderer currentLine { get {
+    public MachineLine currentLine { get {
             if (!isInput)
             {
                 Debug.LogError("hmm should not use this function if is not input");
@@ -69,127 +66,96 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");
+        Debug.Log("OnBeginDrag " + isInput) ;
 
         // if is input, remove current line and attach, reuse that line
         // if is output, create new line
 
-        if (isInput)
+        if (isInput && attachedPut)
         {
-            currentDraggingLine = currentLine;
-            currentDraggingAttach = attachedPut;
-            attachedPut.releaseAttach(this);
+            currentLine.init(attachedPut);
+            currentDraggingLine = currentLine; 
+            attachedPut.releaseAttach(this); 
             releaseAttach(attachedPut);
         }
         else
         {
 
-
             var mousePosition = transform.position;
             DrawLine(mousePosition, mousePosition, Color.red);
         }
 
+
+        //else if (isInput && attachedPut)
+        //{
+        //    attachedPut.currentDraggingLine = currentLine;
+        //    attachedPut.currentDraggingAttach = attachedPut;
+
+        //    passToOpposite = true;
+        //    attachedPut.isPassed = true;
+        //    //attachedPut.releaseAttach(this);
+        //    //releaseAttach(attachedPut);
+        //    tempPassAttach = attachedPut;
+        //    attachedPut.releaseAttach(this);
+        //    releaseAttach(attachedPut);
+        //    tempPassAttach.OnBeginDrag(eventData);
+        //}
     }
-    
-    
+
+    private void Awake()
+    {
+        machine = GetComponentInParent<GeneralMachine>();
+    }
+
     void DrawLine(Vector3 start, Vector3 end, Color color, float duration = 0.2f)
     {
-        GameObject myLine = new GameObject();
-        myLine.transform.parent = transform;
-        myLine.transform.position = start;
-        myLine.AddComponent<LineRenderer>();
-        LineRenderer lr = myLine.GetComponent<LineRenderer>();
-        currentDraggingLine = lr;
+        //GameObject myLine = new GameObject();
+        //myLine.transform.position = start;
+        //myLine.AddComponent<LineRenderer>();
+       // LineRenderer lr = myLine.GetComponent<LineRenderer>();
         // lr.material = new Material(Shader.Find("Particles/Alpha Blended Premultiply"));
-        lr.SetWidth(0.1f, 0.1f);
-        lr.SetPosition(0, start);
-        lr.SetPosition(1, end);
-        lr.material = lineMaterial;
+        //lr.SetWidth(0.1f, 0.1f);
+       // lr.material = lineMaterial;
 
 
 
-        lr.startColor = Color.red;
-        lr.endColor = Color.red;
+        var linePrefab = Resources.Load<GameObject>("line");
+        var line = Instantiate(linePrefab,start,Quaternion.identity);
+        currentDraggingLine = line.GetComponent<MachineLine>();
+        currentDraggingLine.init(this);
 
+
+        line.transform.parent = transform.parent;
 
         //GameObject.Destroy(myLine, duration);
     }
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
-
-        if (currentDraggingAttach)
+        if (currentDraggingLine)
         {
-            attach(currentDraggingAttach,currentDraggingLine);
-            currentDraggingAttach.attach(this, currentDraggingLine);
-            currentDraggingLine.SetPosition(1, currentDraggingAttach.transform.position);
+            currentDraggingLine.OnEndDrag();
+            currentDraggingLine = null;
         }
-        else
-        {
-            Destroy(currentDraggingLine.gameObject);
-        }
-        if (currentDraggingAttach)
-        {
-            currentDraggingAttach.releaseTryAttach();
-        }
-        releaseTryAttach();
     }
     public void OnDrag(PointerEventData eventData)
     {
-        var mousePosition = Utils.getMousePosition;
-
-        if (currentDraggingAttach)
+        if (currentDraggingLine)
         {
-            if((currentDraggingAttach.transform.position - mousePosition).magnitude >= collideRadius)
-            {
-                currentDraggingAttach.releaseTryAttach();
-                releaseTryAttach();
-            }
+            currentDraggingLine.OnDrag();
         }
-
-        foreach( var item in Physics2D.OverlapCircleAll(mousePosition, collideRadius))
-        {
-            var newInOut = item.GetComponent<inoutPut>();
-            //todo find the closest inoutput to attach
-            if (newInOut && newInOut!=this && newInOut.isInput!=isInput)
-            {
-                //if(currentDraggingAttach && newInOut == currentLineAttach)
-                //{
-                //    currentLineAttach.releaseTryAttach();
-                //}
-                //else
-                //{
-
-                //}
-
-                newInOut.selectToTryAttach();
-                currentDraggingAttach = newInOut;
-                break;
-            }
-        }
-
-        currentDraggingLine.SetPosition(1, mousePosition);
     }
 
-    public void selectToTryAttach()
-    {
-        renderer.transform.localScale = Vector3.one * 1.5f;
-    }
 
-    public void releaseTryAttach()
-    {
-
-        currentDraggingAttach = null;
-        renderer.transform.localScale = Vector3.one;
-    }
-
-    public void attach(inoutPut inout, LineRenderer line)
+    public void attach(inoutPut inout, MachineLine line)
     {
         if (isInput)
         {
             if(currentLinesByAttach.Count!=0 || currentAttachss.Count != 0)
             {
-                Debug.LogError("input can only have one attache");
+                Destroy( currentLinesByAttach[attachedPut].gameObject);
+                attachedPut.releaseAttach(this);
+                releaseAllAttach();
+                //Debug.LogError("input can only have one attache");
             }
         }
 
@@ -198,6 +164,8 @@ public class inoutPut : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
             Debug.LogError("attach and line not the same");
         }
+
+        
 
         currentLinesByAttach[inout] = line;
         currentAttachss.Add  ( inout);

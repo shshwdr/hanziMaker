@@ -209,7 +209,7 @@ public class Utils : MonoBehaviour
             var mouseP = Input.mousePosition;
             mouseP.z = 5.0f;
             var worldMouseP = Camera.main.ScreenToWorldPoint(mouseP);
-            Debug.Log("mouse position " + mouseP + " " + worldMouseP);
+            //Debug.Log("mouse position " + mouseP + " " + worldMouseP);
             //return Camera.main.ScreenToWorldPoint(Input.mousePosition);
             return worldMouseP;
             //return 

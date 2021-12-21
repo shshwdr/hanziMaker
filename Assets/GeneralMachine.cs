@@ -16,6 +16,21 @@ public class GeneralMachine : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     public inoutPut output;
     public List<inoutPut> inputs = new List<inoutPut>();
 
+    List<MachineLine> machineLines = new List<MachineLine>();
+
+
+    public void addMachineLine(MachineLine line)
+    {
+        machineLines.Add(line);
+    }
+    public void removeMachineLine(MachineLine line)
+    {
+        if (machineLines.Contains(line))
+        {
+
+            machineLines.Remove(line);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -97,6 +112,11 @@ public class GeneralMachine : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
                 removeAreaObject.transform.GetChild(0).gameObject.SetActive(false);
             }
         }
+
+        foreach(var line in machineLines)
+        {
+            line.updatePosition();
+        }
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -104,4 +124,30 @@ public class GeneralMachine : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
        // currentDragging = Instantiate(preload, Utils.getMousePosition, Quaternion.identity);
     }
 
+    private void OnDestroy()
+    {
+
+        foreach(var line in machineLines)
+        {
+            Destroy(line.gameObject);
+        }
+
+        foreach(var inp in inputs)
+        {
+            foreach(var attach in inp.allAttaches)
+            {
+                attach.releaseAttach(inp);
+            }
+        }
+        if (output)
+        {
+
+            foreach (var attach in output.allAttaches)
+            {
+                attach.releaseAttach(output);
+            }
+        }
+
+
+    }
 }

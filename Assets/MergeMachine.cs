@@ -84,6 +84,7 @@ public class MergeMachine : BaseMachine
                     }
                     foundOne = true;
                     outputStr = row.name;
+                    RuleManager.Instance.unlockRule(row);
                     createLetters();
                 }
                 else
@@ -112,6 +113,8 @@ public class MergeMachine : BaseMachine
         {
             if (!input.attachedPut)
             {
+
+                generalMachine.errorPanel.SetActive(false);
                 return;
             }
         }
@@ -136,7 +139,17 @@ public class MergeMachine : BaseMachine
             {
                 CreateErrorMessage(currentInputs);
             }
+            else
+            {
 
+                generalMachine.errorPanel.SetActive(false);
+            }
+
+        }
+        else
+        {
+
+            generalMachine.errorPanel.SetActive(false);
         }
     }
 
@@ -160,6 +173,7 @@ public class MergeMachine : BaseMachine
                 canTryDifferentType = canCreateResult(currentInputs, false, true, '\0', type);
                 if (canTryDifferentType)
                 {
+                    errorText += "试试别的合并方式";
                     break;
                 }
             }

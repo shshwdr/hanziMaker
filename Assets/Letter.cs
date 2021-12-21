@@ -9,9 +9,10 @@ public class Letter : MonoBehaviour
     public Text text;
     Vector3 targetPosition;
     public float moveSpeed = 1f;
-    public void init(string l,Vector3 position)
+    public bool shouldMove = true;
+    public void init(string l,Vector3 position,bool _move = true)
     {
-
+        shouldMove = _move;
         var dict = RuleManager.stringToDictionary(l);
         
         letter = ""+dict['f'];
@@ -44,12 +45,16 @@ public class Letter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var dir = (targetPosition - transform.position).normalized;
-        transform.Translate(dir * moveSpeed * Time.deltaTime);
-
-        if((transform.position - targetPosition).magnitude <= 0.1f)
+        if (shouldMove)
         {
-            Destroy(gameObject);
+
+            var dir = (targetPosition - transform.position).normalized;
+            transform.Translate(dir * moveSpeed * Time.deltaTime);
+
+            if ((transform.position - targetPosition).magnitude <= 0.1f)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

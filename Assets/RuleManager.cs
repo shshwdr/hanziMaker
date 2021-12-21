@@ -19,16 +19,25 @@ public class RuleInfo
 public class RuleManager : Singleton<RuleManager>
 {
 
-    List<RuleInfo> ruleInfoList;
+    public List<RuleInfo> ruleInfoList;
+    public Dictionary<RuleInfo, bool> ruleInfoUnlocked = new Dictionary<RuleInfo, bool>();
     public Dictionary<string, List<RuleInfo>> ruleInfoByMachine = new Dictionary<string, List<RuleInfo>>();
     public Dictionary<string, RuleInfo> ruleInfoByName = new Dictionary<string, RuleInfo>();
+    public bool forceUnlock;
    static string[] mergeTypes = new string[]
     {
         "mergeC",
         "mergeV",
         "mergeH",
-
     };
+    public bool isUnlocked(RuleInfo info)
+    {
+        return forceUnlock ||(ruleInfoUnlocked.ContainsKey(info) && ruleInfoUnlocked[info]);
+    }
+    public void unlockRule(RuleInfo info)
+    {
+        ruleInfoUnlocked[info] = true;
+    }
 
     static public string[] otherMergeTypes(string currentMergeType)
     {
@@ -153,8 +162,5 @@ public class RuleManager : Singleton<RuleManager>
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
